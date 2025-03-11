@@ -34,14 +34,11 @@ cd Cad-viewer
 
 ```
 node server.js
-
 ```
 
 ### 3. To run frontend 
 
 ```
 cd frontend
-
 npm start
-
-
+```
