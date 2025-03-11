@@ -1,0 +1,86 @@
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+}
+
+
+.file-uploader {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  z-index: 10;
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.file-uploader input[type="file"] {
+  margin-bottom: 10px;
+}
+
+.file-uploader button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.file-uploader button:hover {
+  background-color: #0056b3;
+}
+
+
+.model-viewer {
+  width: 100%;
+  height: 100%;
+  background-color: #ffffff;
+}
+
+
+.controls {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  z-index: 10;
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.controls button {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  margin-right: 8px;
+}
+
+.controls button:last-child {
+  margin-right: 0;
+}
+
+.controls button:hover {
+  background-color: #218838;
+}
